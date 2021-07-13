@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    align-self: center;
+    width: 85%;
+}
+
+@media screen and (max-width: 770px) {
+    .container {
+        width: 100%;
+    }
+}
